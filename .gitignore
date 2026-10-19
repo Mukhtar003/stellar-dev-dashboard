@@ -1,14 +1,31 @@
 node_modules
-.kiro
 node_modules/
+.kiro
+.kilo
+.kilo/
 
+# Build artifacts - generated during CI/release, not tracked in version control
+dist/
+build/
+.next/
+out/
+
+# Issue/PR templates
 issue.md
 pr.md
+
+# Test and coverage artifacts
 coverage/
 .lighthouseci/
 .stryker-tmp/
 reports/
+
+# Storybook
 storybook-static/
+test-results/
+test-results.json
+playwright-report/
+tests/e2e/report/
 node_modules
 branch_structure.json
 temp_auto_push.bat
